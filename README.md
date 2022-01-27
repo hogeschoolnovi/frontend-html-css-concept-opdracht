@@ -43,14 +43,9 @@ _Let op:_ Dit voorbeeld bevat bonus-opdracht elementen
   were looking for an empty page, because then you've definitely found it."_ op staat.
 
 ## Screenshots eindresultaat basisopdracht
-
-### Desktop
-
-![screenshot](./assets/screenshots/basic/basic-desktop.png)
-
-### Mobiel
-
-![screenshot](./assets/screenshots/basic/basic-mobiel.png)
+De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoomed bekijken:
+* [Desktop design](hhttps://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-desktop.png)
+* [Mobiel design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-mobiel.png)
 
 ## Tips
 
@@ -72,11 +67,7 @@ _Let op:_ Dit voorbeeld bevat bonus-opdracht elementen
 ![screenshot](./assets/screenshots/bonus/bonus-moving-link.gif)
 
 ## Screenshots eindresultaat inclusief bonusopdrachten
-
-### Desktop
-
-![screenshot](./assets/screenshots/bonus/bonus-desktop.png)
-
-### Mobiel
-
-![screenshot](./assets/screenshots/bonus/bonus-mobiel.png)
+## Screenshots eindresultaat basisopdracht
+De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoomed bekijken:
+* [Desktop design](hhttps://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/bonus/bonus-desktop.png)
+* [Mobiel design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/bonus/bonus-mobiel.png)
