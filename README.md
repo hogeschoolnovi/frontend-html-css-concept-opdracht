@@ -44,7 +44,7 @@ _Let op:_ Dit voorbeeld bevat bonus-opdracht elementen
 
 ## Screenshots eindresultaat basisopdracht
 De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoomed bekijken:
-* [Desktop design](hhttps://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-desktop.png)
+* [Desktop design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-desktop.png)
 * [Mobiel design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-mobiel.png)
 
 ## Tips
@@ -55,19 +55,19 @@ De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoom
 
 ## Bonusopdrachten
 
-1. Voeg de zwevende woorden toe achter de content. Dit doe je door een **pseudo-element** te gebruiken _(EdHub Hfst. 9.2)_
-2. Zorg ervoor dat de lijnen tussen de verschillende secties schuin lopen ("sqewed") in plaats van horizontaal
-3. Ook de squiggle lijntjes wil je invoegen als een pseudo-element, waarbij de svg een `background-image` van het
+1. Sla de kleur-codes op als CSS variabelen en gebruik deze in jouw CSS-bestand in plaats van de kleuren uit te schrijven.
+2. Voeg de zwevende woorden toe achter de content. Dit doe je door een **pseudo-element** te gebruiken _(EdHub Hfst. 9.2)_.
+3. Zorg ervoor dat de lijnen tussen de verschillende secties schuin lopen ("sqewed") in plaats van horizontaal.
+4. Ook de squiggle lijntjes wil je invoegen als een pseudo-element, waarbij de svg een `background-image` van het
    pseudo-element is. Op deze manier vervuil je de HTML niet met "nutteloze" elementen.
-4. De gradients zijn voorzien van een doorzichtige textuur, om ze visueel wat meer interessant te maken. Ook deze kun je
+5. De gradients zijn voorzien van een doorzichtige textuur, om ze visueel wat meer interessant te maken. Ook deze kun je
    als pseudo-element via een background-image invoegen. Let hierbij wel goed op dat de textuur op de achtergrond,
    maar **onder** de content moet komen te staan. Hiervoor zul je gebruik moeten maken van de `z-index`.
-5. Zorg ervoor dat er een transitie ontstaat wanneer de gebruiker over de project-links hovert:
+6. Zorg ervoor dat er een transitie ontstaat wanneer de gebruiker over de project-links hovert:
 
 ![screenshot](./assets/screenshots/bonus/bonus-moving-link.gif)
 
 ## Screenshots eindresultaat inclusief bonusopdrachten
-## Screenshots eindresultaat basisopdracht
 De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoomed bekijken:
-* [Desktop design](hhttps://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/bonus/bonus-desktop.png)
+* [Desktop design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/bonus/bonus-desktop.png)
 * [Mobiel design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/bonus/bonus-mobiel.png)
