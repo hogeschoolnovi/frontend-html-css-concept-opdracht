@@ -2,27 +2,24 @@
 
 ## Inleiding
 
-Je gaat de home-pagina van een bekend bedrijf ontwikkelen. De designers van dit bedrijf hebben alle schermontwerpen al
-voor jou gemaakt, jij hoeft het alleen nog tot een werkende versie te vertalen!
+Het is tijd om jouw CSS-skills in de praktijk te brengen: je gaat de home-pagina van een bekend bedrijf ontwikkelen. De designers van dit bedrijf hebben, naar aanleiding van hun huisstijl, alle schermontwerpen al helemaal uitgedacht. Het enige wat jij als aanstormende web developer hoeft te doen, is daar een werkende versie van te maken.
+
+Om je rustig kennis te laten maken met alle verschillende technieken, raden we je aan om bij het basis-ontwerp te beginnen. Als je dan nog tijd over hebt, kun je alle toeters en bellen van het bonus-ontwerp toevoegen. 
 
 Het resultaat kan behaalt worden met alleen CSS Flexbox, dus technieken als CSS Grid heb je niet nodig. Alle benodigde
-afbeeldingen, iconen en andere SVG's zijn aangeleverd in de `assets`-map.
+afbeeldingen, iconen en andere SVG's zijn aangeleverd in de `assets`-map, deze kun je downloaden en aan jouw project toevoegen. Alle kopieerbare tekst kun je onderaan deze README vinden.
 
 ![screenshot](./assets/screenshots/screenshot-main.png)
 _Let op:_ Dit voorbeeld bevat bonus-opdracht elementen
 
-## Randvoorwaarden
-
+## Opdrachtbeschrijving en randvoorwaarden
+Je maakt de aangeleverde designs **zo gedetailleerd mogelijk na**, dus let ook op schaduwen onder elementen,
+afgevlakte hoeken en kleurgebruik. De lettergroottes en afstanden tussen elementen mag je op goed geluk inschatten.
+Spreek je innerlijke designer-oog aan! Er zijn designs aangeleverd voor zowel de desktop als mobiele versie. Jouw
+website is dus _responsive_. Jouw webpagina voldoet aan de volgende eisen:
 * In plaats van te clonen, maak je voor dit project een **eigen** project aan, _from scratch_. Zorg dat je Git correct
-  initialiseert en het project (met de basis-be standen die jij nodig hebt) minstens 1 keer naar jouw eigen repository
+  initialiseert en het project, vervolgens alle basis-bestanden (`index.html`, `styles.css`, de map met afbeeldingen etc.) aanmaakt en tenslotte minstens 1 keer naar jouw eigen repository
   hebt gepusht voor je begint.
-* Je maakt de aangeleverde designs **zo gedetailleerd mogelijk na**, dus let ook op schaduwen onder elementen,
-  afgevlakte hoeken en kleurgebruik. De lettergroottes en afstanden tussen elementen mag je op goed geluk inschatten.
-  Spreek je innerlijke designer-oog aan! Er zijn designs aangeleverd voor zowel de desktop als mobiele versie. Jouw
-  website is dus _responsive_.
-* Bedenk van tevoren een plan voor je begint met programmeren. Welke titels worden een `h1`, welke een `h2`, etc.? En
-  welke groottes en afstanden van verschillende elementen komen met elkaar overeen? Welke patronen zie je? Hoe ga je de
-  CSS voor verschillende gedeeltes van de pagina uit elkaar houden?
 * De gebruikte fonts zijn `Merriweather` voor titels en `Roboto` voor normale tekst. Deze fonts kun je gratis vinden op
   Google Fonts.
 * Bekijk het [kleurenpalet hier](https://coolors.co/5722cd-4b49e8-f2f0ff-ed4385-0c0c0c). Het gaat om de volgende
@@ -42,18 +39,53 @@ _Let op:_ Dit voorbeeld bevat bonus-opdracht elementen
 * De project-links linken naar een lege pagina waar alleen: _"The page you were looking for does not exist. Unless you
   were looking for an empty page, because then you've definitely found it."_ op staat.
 
-## Screenshots eindresultaat basisopdracht
+### Tips
+1. Kies van tevoren een duidelijk systeem: welke titels krijgen welke heading-tags? Hoe ga je de elementen groepperen?
+2. Je kunt de SVG's gebruiken als afbeeldingen in een `<img>`-tag, óf door ze als background-image in te stellen via CSS. De keus is aan jou!
+3. Het CSS bestand zal snel een rommeltje worden als je het niet organiseert. Het is daarom aan te raden om een duideljike structuur aan te houden, zoals bijvoorbeeld deze:
 
-De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoomed bekijken:
+```css
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+.content-container {
+    flex-basis: 500px;
+}
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- 4.1 Header ------------------- */
+
+header {
+    background-color: red;
+    padding: 30px 0;
+}
+
+/* --------------- 4.2 Introduction ------------- */
+
+.intro {
+    background-color: white;
+}
+```
+
+### Screenshots eindresultaat basisopdracht
+
+De screenshots zijn erg groot, dus je kunt ze het best downloaden en lokaal ingezoomed bekijken:
 
 * [Desktop design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-desktop.png)
 * [Mobiel design](https://github.com/hogeschoolnovi/frontend-html-css-concept-opdracht/blob/master/assets/screenshots/basic/basic-mobiel.png)
-
-## Tips
-
-* Om de achtergrond-kleur over de volledige breedte te laten lopen (maar de content niet) zul je gebruik moeten maken
-  van het principe waarbij je een outer- en inner-container gebruikt.
-* Je kunt de SVG's gebruiken als afbeeldingen in een `<img>`-tag, óf door ze als background-image in te stellen via CSS.
 
 ## Bonusopdrachten
 
@@ -71,7 +103,7 @@ De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoom
 
 ![screenshot](./assets/screenshots/bonus/bonus-moving-link.gif)
 
-## Screenshots eindresultaat inclusief bonusopdrachten
+### Screenshots eindresultaat inclusief bonusopdrachten
 
 De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoomed bekijken:
 
