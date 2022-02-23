@@ -93,13 +93,13 @@ De screenshots zijn erg groot, dus je kunt ze het best downloaden en lokaal inge
    schrijven.
 2. Voeg de zwevende woorden toe achter de content. Dit doe je door een **pseudo-element** te gebruiken _(EdHub Hfst.
    9.2)_.
-3. Zorg ervoor dat de lijnen tussen de verschillende secties schuin lopen ("sqewed") in plaats van horizontaal.
-4. Ook de squiggle lijntjes wil je invoegen als een pseudo-element, waarbij de svg een `background-image` van het
-   pseudo-element is. Op deze manier vervuil je de HTML niet met "nutteloze" elementen.
+3. Zorg ervoor dat de lijnen tussen de verschillende secties schuin lopen ("sqewed") in plaats van horizontaal, door een uitgerekte CSS driehoek toe te voegen.
+4. Ook de squiggle lijntjes wil je invoegen als een pseudo-element. Dit doe je door de afbeeldingen door middel van de `background-image`-property op een pseudo-element te plaatsen. Op deze manier vervuil je de HTML niet met "nutteloze" elementen.
 5. De gradients zijn voorzien van een doorzichtige textuur, om ze visueel wat meer interessant te maken. Ook deze kun je
    als pseudo-element via een background-image invoegen. Let hierbij wel goed op dat de textuur op de achtergrond,
    maar **onder** de content moet komen te staan. Hiervoor zul je gebruik moeten maken van de `z-index`.
-6. Zorg ervoor dat er een transitie ontstaat wanneer de gebruiker over de project-links hovert:
+6. Zorg ervoor dat er een transitie ontstaat wanneer de gebruiker over de project-links hovert _(EdHub Hfst.
+   9.5)_:
 
 ![screenshot](./assets/screenshots/bonus/bonus-moving-link.gif)
 
@@ -112,8 +112,7 @@ De screenshots zijn groot, dus je kunt ze het best downloaden en lokaal ingezoom
 
 ## Dummy tekst
 
-#### Your website is an investment in the success of your business.
-
+### Your website is an investment in the success of your business.
 We are here to help you succeed. Let's work together
 
 #### Hello
