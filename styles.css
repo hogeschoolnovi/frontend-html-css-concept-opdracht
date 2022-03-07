@@ -1,0 +1,191 @@
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial Nova Light"
+
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Merriweather-light";
+}
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+.content-container {
+    flex-basis: 500px;
+}
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+
+/* --------------- banner ------------------- */
+
+.banner {
+    padding: 25px;
+    background: #4845E4;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.banner li {
+    padding-right: 4em;
+    list-style: none;
+}
+
+.banner a:link {
+
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------- part-1 ------------------- */
+.part-1 {
+    background: #4845E4;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+
+}
+
+.part-1 h1 {
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.part-1 p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.part-1 button {
+    background-color: #ED4385;
+    border: none;
+    color:white;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    width: 250px;
+    box-shadow: 0px 10px 10px #5722CD;
+
+
+
+
+    margin-bottom: 100px;
+}
+
+.part-1 img {
+    position: relative;
+    height: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+/* --------------- part-2 ------------- */
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.part-2 h2 {
+    color: #4845E4;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.part-2 p {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.part-2 a {
+    text-decoration: none;
+}
+
+/*-------------part 3----------------
+ */
+/*---------------3-1----------------*/
+
+.part-3{
+    background-color: grey;
+    margin: 5%;
+}
+
+.part-3_1 {
+    display: flex;
+    border: 5px solid red;
+    justify-content: flex-end;
+
+}
+
+.part-3_1 article {
+    width: 50%;
+    border: 5px solid red;
+}
+
+#img1{
+    padding-right: 5%;
+    padding-top: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+.part-3_2 {
+    display: flex;
+    border: 5px solid red;
+    justify-content: flex-end;
+}
+
+.part-3_2 article {
+    width: 50%;
+    border: 5px solid red;
+}
+
+#img2{
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+.part-3_3 {
+    display: flex;
+    border: 5px solid red;
+    justify-content: flex-end;
+}
+
+.part-3_3 article {
+    width: 50%;
+    border: 5px solid red;
+}
+
+#img3{
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 50%;
+    height: 50%;
+}
