@@ -132,7 +132,7 @@ een duidelijk plan voor jezelf over hoe je dit gaat aanpakken.
 
 ```html
 <span class="image-wrapper">
-		<img src="..." alt="..."/>
+    <img src="..." alt="..."/>
 </span>
 ```
 
