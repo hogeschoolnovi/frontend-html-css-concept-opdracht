@@ -70,7 +70,7 @@ rommeltje. Zorg daarom dat je onderstaande checklist afwerkt.
   aangeleverd: [bekijk het kleurenpalet hier](https://coolors.co/5722cd-4b49e8-f2f0ff-ed4385-0c0c0c). Het is handig om
   deze kleuren bovenaan jouw CSS-bestand te plakken, zodat je ze gemakkelijk kunt kopiëren wanneer je ze nodig
   hebt. *Tip*: je kunt ook gebruik maken van
-  CSS-variabelen ([EdHub Hfst. 9.3](https://edhub.novi.nl/study/courses/514/content/12701)). Het gaat om de volgende
+  CSS-variabelen ([EdHub Hfst. 8.7](https://edhub.novi.nl/study/courses/514/content/12701)). Het gaat om de volgende
   HEX-codes:
     - Paars `#5722CD`;
     - Blauw `#4845E4`;
