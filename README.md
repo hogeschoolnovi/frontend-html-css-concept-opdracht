@@ -32,7 +32,7 @@ Hiervoor heb je onder andere kennis nodig van pseudo-elementen, transities, het 
 van `z-index` om elementen boven elkaar te stapelen. Al deze technieken worden besproken in het bonushoofdstuk op
 EdHub (Hfst. 9).
 
-![browser-screenshot](./assets/screenshots/browser-screenshot.png)
+![browser-screenshot](./assets/screenshots/bonus/bonus-desktop.png)
 
 *Let op:* bovenstaand voorbeeld bevat bonus-opdracht elementen!
 
